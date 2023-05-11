@@ -88,5 +88,4 @@ scroll.pack(side=RIGHT,fill=Y)
 scroll.config(command=textArea.yview)
 textArea.config(yscrollcommand=scroll.set)
 window.config(menu=MenuBar)
-
 window.mainloop()
