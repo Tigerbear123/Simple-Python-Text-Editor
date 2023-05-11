@@ -52,7 +52,7 @@ def pasteOper():
     textArea.event_generate("<<Paste>>")
 # This allows the user to view the manual when they hit "Manual" via "Help". 
 def about():
-    tsmg.showinfo("Manual","This is a text editor developed in Python. You can type anything in this window. You can create, open, and save files in the File menu as well as exiting the application. You can cut, copy, and paste your text in the Edit menu.")
+    tsmg.showinfo("About","This is a text editor developed in Python. You can type anything in this window. You can create, open, and save files in the File menu as well as exiting the application. You can cut, copy, and paste your text in the Edit menu.")
 
 
 window =Tk()
