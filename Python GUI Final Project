@@ -54,7 +54,7 @@ def pasteOper():
 def about():
     tsmg.showinfo("About","This is a text editor developed in Python. You can type anything in this window. You can create, open, and save files in the File menu as well as exiting the application. You can cut, copy, and paste your text in the Edit menu.")
 
-
+# The dimensions of the window
 window =Tk()
 window.geometry("700x900")
 window.minsize(420,420)
